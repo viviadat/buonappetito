@@ -1,0 +1,58 @@
+*{outline: 1px solid limegreen;}*/
+
+
+
+/*HTML*/
+html {
+  background-color: pink;
+}
+
+body {
+  background-color: white;
+}
+
+
+
+/*NAV BAR*/
+nav li {
+  display: inline;
+  padding-left: 25px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.25em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+nav a:link, nav a:visited {
+    color: black;
+    text-decoration: none; /*removes default underlines from links*/
+}
+
+nav a:hover {
+  color: grey;
+}
+
+/*MAIN IMAGE
+img#main {
+  float: right;
+}*/
+
+/*HEADER TEXT*/
+header {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+}
+
+.white {
+  background-color: white;
+}
+
+.centertext {
+  text-align: center;
+}

@@ -1,0 +1,755 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
+
+/* //////////////NAV BAR////////////  */
+
+#index {
+  background:url(../img/index-bg.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#index nav ul {
+  font-size: 1.25em;
+}
+
+#index .navbg {
+  background-color: rgba(0,0,0,0.5);
+  font-family: 'Pacifico', cursive;
+}
+
+#index .navdesign li {
+  /* margin-right: 3em; */
+  font-size: 1.2em;
+  styles: none;
+  text-decoration: none;
+  color: black;
+}
+
+#index li a:link, li a:visited {
+  color: white;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#index li a:hover {
+  font-weight: bold;
+  background-color: #c4a65c;
+}
+
+#index .logo {
+  margin-left: 2em;
+}
+
+
+#index .title {
+  font-family: 'Alex Brush', cursive;
+  margin-top: 1.2em;
+  color: rgb(255, 255, 255);
+  font-size: 6em;
+}
+
+#index .textbox {
+  padding: 20px;
+}
+
+#index .content {
+  text-align: center;
+}
+
+
+#index h2 {
+  color: rgb(255,255,255);
+  font-family: 'Alex Brush', cursive;
+}
+
+#index h2 a:link, h2 a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#index .caption {
+  color: white;
+  text-align: center;
+  padding-top: 2em;
+  font-size: 1.5em;
+  font-family: 'Cormorant Garamond', serif;
+
+}
+#index .captiond {
+  padding-left: 15px;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Cormorant Garamond', serif;
+
+}
+#index p {
+  color: white;
+  padding-top: 3em;
+}
+
+#index .button {
+  color: white;
+  background-color: rgba(255, 218, 124, 0.8);
+  margin-top: 50px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+/* #indexp p a:hover {
+  background-color: rgba(124, 106, 59, .5) !important;
+} */
+#index .top-bar {
+    background-color: rgba(255, 218, 124, 0.4);
+}
+
+/* MENU LUNCH */
+#appetitomenu  {
+  background:url(../img/dinnerbg.png) no-repeat center center fixed;
+  /* background:url(../img/flagbg.png) no-repeat center center fixed; */
+  /* background:url(../img/lunchbg.png) no-repeat center center fixed; */
+  /* background-size: 100%; */
+}
+
+#appetitomenu .backgroundpattern {
+  background: white;
+}
+
+#appetitomenu nav ul {
+  font-size: 1.25em;
+}
+#appetitomenu .top-bar {
+    background-color: rgba(255, 218, 124, 0.4);
+}
+#appetitomenu .navbg {
+  background-color: rgba(0,0,0,0.5);
+  font-family: 'Pacifico', cursive;
+}
+
+#appetitomenu .textbox {
+  padding: 20px;
+}
+
+#appetitomenu .content {
+  text-align: center;
+}
+
+#appetitomenu .navdesign li {
+  /* margin-right: 3em; */
+  font-size: 1.2em;
+  styles: none;
+  text-decoration: none;
+  color: black;
+}
+
+#appetitomenu li a:link, li a:visited {
+  color: white;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#appetitomenu li a:hover {
+  font-weight: bold;
+  background-color: #c4a65c;
+}
+
+#appetitomenu .logo {
+  margin-left: 2em;
+}
+
+#appetitomenu h2 {
+  color: rgb(255,255,255);
+  font-family: 'Alex Brush', cursive;
+}
+
+#appetitomenu h2 a:link, h2 a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#appetitomenu .title {
+  font-family: 'Alex Brush', cursive;
+  margin-top: 1.2em;
+  color: rgb(255, 255, 255);
+  font-size: 6em;
+}
+
+
+#appetitomenu p {
+  color: white;
+  /* padding-top: 3em; */
+}
+
+#appetitomenu .menucenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#appetitomenu .bordermenu {
+  border: 2px solid rgb(211, 211, 211);
+  padding: 10px;
+  background: white;
+
+}
+
+#appetitomenu .slide {
+  position:absolute;
+  z-index: -1;
+}
+
+#appetitomenu .headersmallcontainer {
+  position: relative;
+}
+
+#appetitomenu .titlelunch {
+  position: absolute;
+  text-align: center;
+}
+
+#appetitomenu img {
+    display: block;
+}
+
+#appetitomenu .thumbnail {
+    position: relative;
+    display: inline-block;
+    border: solid 4px #fefefe;
+}
+
+
+#appetitomenu .menucategory {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2em;
+    text-shadow: black 0px 0px 10px;
+}
+#appetitomenu .modalbg {
+  background-color: rgb(255, 218, 124);
+}
+#appetitomenu .modalstyles h1, h4  {
+font-family: 'Cormorant Garamond', serif;
+}
+#appetitomenu .modalstyles h1 {
+  font-weight: bold;
+}
+#appetitomenu .modalstyles p {
+  font-family: 'Cormorant Garamond', serif;
+  color: black;
+  font-size: .9em;
+  font-style: italic;
+}
+
+#appetitomenu .accordionstyles {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  /* color: rgb(124, 106, 59) !important; */
+  color: white;
+}
+
+#appetitomenu .accordionstylescontent p{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1em;
+  color: black;
+  font-style: italic;
+}
+
+#appetitomenu .menutext {
+  font-family: 'Alex Brush', cursive;
+  text-shadow: black 0px 0px 10px;
+  padding-top: 75px;
+  font-size: 5em;
+}
+#appetitomenu .menutextsmall {
+  font-family: 'Alex Brush', cursive;
+  text-shadow: black 0px 0px 10px;
+  padding-top: 200px;
+  font-size: 3em;
+}
+
+#appetitomenu .buttonmenu a:link, .buttonmenu a:visited {
+  color: #FFF;
+  background-color: rgba(124, 106, 59, .5);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+#appetitomenu .buttonmenu a:hover {
+  color: #000;
+  background-color: #c4a65c;
+  text-decoration: none;
+}
+
+
+/* ///////////////////////////////MENU DINNER////////////////////////////////// */
+#appetitomenudinner  {
+  background:url(../img/dinnerbg.png) no-repeat center center fixed;
+  /* background:url(../img/lunchbg.png) no-repeat center center fixed; */
+  /* background-size: 100%; */
+}
+
+#appetitomenudinner .backgroundpattern {
+  background: white;
+}
+
+#appetitomenudinner nav ul {
+  font-size: 1.25em;
+}
+#appetitomenudinner .top-bar {
+    background-color: rgba(255, 218, 124, 0.4);
+}
+#appetitomenudinner .navbg {
+  background-color: rgba(0,0,0,0.5);
+  font-family: 'Pacifico', cursive;
+}
+
+#appetitomenudinner .textbox {
+  padding: 20px;
+}
+
+#appetitomenudinner .content {
+  text-align: center;
+}
+
+#appetitomenudinner .navdesign li {
+  /* margin-right: 3em; */
+  font-size: 1.2em;
+  styles: none;
+  text-decoration: none;
+  color: black;
+}
+
+#appetitomenudinner li a:link, li a:visited {
+  color: white;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#appetitomenudinner li a:hover {
+  font-weight: bold;
+  background-color: #c4a65c;
+}
+
+#appetitomenudinner .logo {
+  margin-left: 2em;
+}
+
+#appetitomenudinner h2 {
+  color: rgb(255,255,255);
+  font-family: 'Alex Brush', cursive;
+}
+
+#appetitomenudinner h2 a:link, h2 a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#appetitomenudinner .title {
+  font-family: 'Alex Brush', cursive;
+  margin-top: 1.2em;
+  color: rgb(255, 255, 255);
+  font-size: 6em;
+}
+
+
+/* #appetitomenudinner p {
+  color: white;
+} */
+
+#appetitomenudinner .menucenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#appetitomenudinner .bordermenu {
+  border: 2px solid rgb(211, 211, 211);
+  padding: 10px;
+  background: white;
+
+}
+
+#appetitomenudinner .slide {
+  position:absolute;
+  z-index: -1;
+}
+
+#appetitomenudinner .headersmallcontainer {
+  position: relative;
+}
+
+#appetitomenudinner .titlelunch {
+  position: absolute;
+  text-align: center;
+}
+
+#appetitomenudinner img {
+    display: block;
+    background-color:black;
+}
+
+#appetitomenudinner .thumbnail {
+    position: relative;
+    display: inline-block;
+    border: solid 4px #000000;
+}
+
+#appetitomenudinner .menucategory {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2em;
+    text-shadow: black 0px 0px 10px;
+}
+#appetitomenudinner .modalbg {
+  background-color: rgb(255, 218, 124);
+}
+#appetitomenudinner .modalstyles h1, h4, p  {
+font-family: 'Cormorant Garamond', serif;
+}
+#appetitomenudinner .modalstyles h1 {
+  font-weight: bold;
+}
+#appetitomenudinner .modalstyles  {
+  font-size: .9em;
+  font-style: italic;
+}
+/* #appetitomenudinner .pcolor {
+  color: black;
+  font-size: .9em;
+  font-style: italic;
+} */
+
+#appetitomenudinner .accordionstyles {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  /* color: rgb(124, 106, 59) !important; */
+  color: white;
+}
+
+#appetitomenudinner .accordionstylescontent p{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1em;
+  color: black;
+  font-style: italic;
+}
+
+#appetitomenudinner .menutext {
+  font-family: 'Alex Brush', cursive;
+  text-shadow: black 0px 0px 10px;
+  padding-top: 75px;
+  font-size: 5em;
+  color: white;
+}
+#appetitomenudinner .menutextsmall {
+  font-family: 'Alex Brush', cursive;
+  text-shadow: black 0px 0px 10px;
+  padding-top: 200px;
+  font-size: 3em;
+  color: white;
+}
+
+#appetitomenudinner .buttonmenu a:link, .buttonmenu a:visited {
+  color: #FFF;
+  background-color: rgba(124, 106, 59, .5);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+#appetitomenudinner .buttonmenu a:hover {
+  color: #000;
+  background-color: #c4a65c;
+  text-decoration: none;
+}
+
+
+/* EVENTS */
+
+#events  {
+    background:url(../img/index-bg.png) no-repeat center center fixed;
+}
+
+#events .backgroundpattern {
+  background: black;
+}
+
+#events nav ul {
+  font-size: 1.25em;
+}
+#events .top-bar {
+    background-color: rgba(255, 218, 124, 0.4);
+}
+#events .navbg {
+  background-color: rgba(255, 218, 124, 1.9);
+  font-family: 'Pacifico', cursive;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#events .textbox {
+  padding: 20px;
+}
+
+#events .content {
+  text-align: center;
+}
+
+#events .navdesign li {
+  font-size: 1.2em;
+  styles: none;
+  text-decoration: none;
+  color: black;
+}
+
+#events li a:link, li a:visited {
+  color: white;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#events li a:hover {
+  font-weight: bold;
+  background-color: #c4a65c;
+}
+
+#events .logo {
+  margin-left: 2em;
+}
+
+
+#events h2 {
+  color: rgb(255,255,255);
+  font-family: 'Alex Brush', cursive;
+}
+
+#events h2 a:link, h2 a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#events .title {
+  font-family: 'Alex Brush', cursive;
+  margin-top: 1.2em;
+  color: rgb(255, 255, 255);
+  font-size: 6em;
+}
+
+
+#events p {
+  color: white;
+  margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 80px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+}
+
+
+#events .slide {
+  position:absolute;
+  z-index: -1;
+}
+
+#events .headersmallcontainer {
+  position: relative;
+}
+
+#events .titlelunch {
+  position: absolute;
+  text-align: center;
+}
+
+#events img {
+    display: block;
+}
+
+#events .accordionstyles {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  color: rgb(124, 106, 59) !important;
+}
+
+#events .accordionstylescontent p{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1em;
+  color: black;
+  font-style: italic;
+}
+
+#events .menutext {
+  font-family: 'Alex Brush', cursive;
+  text-shadow: black 0px 0px 10px;
+  padding-top: 75px;
+  font-size: 5em;
+}
+
+#events .topbarcolor {
+  background-color:
+}
+
+
+
+#events .restfont {
+  font-family: 'Alex Brush', cursive;
+  font-size: 2.5em;
+}
+
+#events .centerblock {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: black;
+  opacity: .5;
+  padding: 20px;
+  color: white
+
+}
+
+#events .textbox {
+  padding: 20px;
+}
+
+#events .contact {
+  text-align: center;
+}
+
+#events .banner {
+  position: relative;
+}
+#events .button {
+    background-color: rgba(255, 218, 124, 0.9);
+  }
+
+#events .eventtextstyle {
+  font-size: 1.2em;
+  color: white;
+  fontweight: bold;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: rgba(10,10,10,0.3);
+  text-align: center;
+}
+
+#events .smalltitle {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* DIRECTIONS */
+
+#directions  {
+  background:url(../img/dinnerbg.png) no-repeat center center fixed;
+  background-color: rgb(255, 218, 124);
+}
+
+#directions .backgroundpattern {
+  background: white;
+}
+
+#directions nav ul {
+  font-size: 1.25em;
+}
+#directions .top-bar {
+    background-color: rgba(255, 218, 124, 0.4);
+}
+#directions .navbg {
+  background-color: rgba(0,0,0,0.5);
+  font-family: 'Pacifico', cursive;
+}
+
+#directions .textbox {
+  padding: 20px;
+}
+
+#directions .content {
+  text-align: center;
+}
+
+#directions .navdesign li {
+  font-size: 1.2em;
+  styles: none;
+  text-decoration: none;
+  color: black;
+}
+
+#directions li a:link, li a:visited {
+  color: white;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#directions li a:hover {
+  font-weight: bold;
+  background-color: #c4a65c;
+}
+
+#directions .logo {
+  margin-left: 2em;
+}
+
+#directions h2 {
+  color: rgb(255,255,255);
+  font-family: 'Alex Brush', cursive;
+}
+
+#directions h2 a:link, h2 a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#directions .title {
+  font-family: 'Alex Brush', cursive;
+  margin-top: 1.2em;
+  color: rgb(255, 255, 255);
+  font-size: 6em;
+}
+
+
+#directions h1, h5 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  color: white
+}
+#directions .bordermenu {
+  border: 2px solid rgb(211, 211, 211);
+  padding: 10px;
+  background: white;
+}
+
+#directions .mapsection {
+    background-color: rgba(0,0,0,0.5);
+    margin: 15px;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+}
