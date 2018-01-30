@@ -235,14 +235,17 @@
 #appetitomenu .modalbg {
   background-color: rgb(255, 218, 124);
 }
-#appetitomenu .modalstyles h1, h4  {
-font-family: 'Cormorant Garamond', serif;
+#appetitomenu .modalstyles h4  {
+font-family: 'Cormorant Garamond', serif !important;
+font-size: 1.5em;
+color: black;
 }
 #appetitomenu .modalstyles h1 {
   font-weight: bold;
+  font-family: 'Cormorant Garamond', serif !important;
 }
 #appetitomenu .modalstyles p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', serif !important;
   color: black;
   font-size: .9em;
   font-style: italic;
@@ -420,16 +423,26 @@ font-family: 'Cormorant Garamond', serif;
 #appetitomenudinner .modalbg {
   background-color: rgb(255, 218, 124);
 }
-#appetitomenudinner .modalstyles h1, h4, p  {
-font-family: 'Cormorant Garamond', serif;
+#appetitomenudinner .modalstyles h4{
+  font-family: 'Cormorant Garamond', serif !important;
+  font-size: 1.5em;
+  color: black;
 }
 #appetitomenudinner .modalstyles h1 {
   font-weight: bold;
+  font-family: 'Cormorant Garamond', serif !important;
 }
 #appetitomenudinner .modalstyles  {
   font-size: .9em;
   font-style: italic;
 }
+#appetitomenudinner .modalstyles p {
+  font-family: 'Cormorant Garamond', serif !important;
+  color: black;
+  font-size: .9em;
+  font-style: italic;
+}
+
 /* #appetitomenudinner .pcolor {
   color: black;
   font-size: .9em;
@@ -667,7 +680,7 @@ font-family: 'Cormorant Garamond', serif;
 /* DIRECTIONS */
 
 #directions  {
-  background:url(../img/dinnerbg.png) no-repeat center center fixed;
+  background:url(../img/index-bg.png) no-repeat center center fixed;
   background-color: rgb(255, 218, 124);
 }
 
