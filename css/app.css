@@ -1,0 +1,9 @@
+*{outline: 1px solid red;}
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Lato');
+
+
+body{font-family: 'Alegreya', serif;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Lato', sans-serif;}
+h2 {font-size: 1.35rem;}
+p {line-height: 1.25em;}
+/* comments*/

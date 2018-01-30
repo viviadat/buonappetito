@@ -1,0 +1,67 @@
+*{outline: 1px solid limegreen;}*/
+/*@import url('https://fonts.googleapis.com/css?family=Alegreya|Lato');*/
+
+
+body{font-family: 'Alegreya', serif;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Lato', sans-serif;}
+h2 {font-size: 1.35rem;}
+p {line-height: 1.25em;}
+/* comments*/
+
+footer {
+  text-align: center;
+}
+
+nav#topbar li {
+  display: inline;
+  padding-left: 25px;
+}
+
+nav#topbar ul {
+  padding: none;
+  list-style-type: none;
+  text-align: left;
+  font-size: 1.25em;
+
+}
+
+.topics {
+  text-align: left;
+  padding-left: 5px;
+  font-size: 2em;
+}
+
+nav#sidebar ul{
+  padding: none;
+  list-style-type: none;
+  text-align: left;
+  font-size: 1em;
+}
+
+.float {
+  float: right;
+  margin:0 15px 0 0;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.border {
+  border-bottom: 1px solid lightgrey;
+}
+
+.border2 {
+  border-bottom: 1px solid lightgrey;
+}
+
+.topictitle {
+  font-size: 3.5em;
+}
+
+img {
+  border: 1px solid grey;
+}
+
+.spacing {
+  line-height: 30px;
+  text-indent: 50px
+}
