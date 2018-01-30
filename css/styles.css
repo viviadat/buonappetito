@@ -265,6 +265,12 @@ color: black;
   font-style: italic;
 }
 
+#appetitomenu .accordionstylescontent h4{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  color: black;
+}
+
 #appetitomenu .menutext {
   font-family: 'Alex Brush', cursive;
   text-shadow: black 0px 0px 10px;
@@ -279,6 +285,7 @@ color: black;
 }
 
 #appetitomenu .buttonmenu a:link, .buttonmenu a:visited {
+  font-family: 'Cormorant Garamond', serif !important;
   color: #FFF;
   background-color: rgba(124, 106, 59, .5);
   border-radius: 10px;
@@ -462,6 +469,11 @@ color: black;
   color: black;
   font-style: italic;
 }
+#appetitomenudinner .accordionstylescontent h4{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5em;
+  color: black;
+}
 
 #appetitomenudinner .menutext {
   font-family: 'Alex Brush', cursive;
@@ -479,6 +491,7 @@ color: black;
 }
 
 #appetitomenudinner .buttonmenu a:link, .buttonmenu a:visited {
+  font-family: 'Cormorant Garamond', serif !important;
   color: #FFF;
   background-color: rgba(124, 106, 59, .5);
   border-radius: 10px;
